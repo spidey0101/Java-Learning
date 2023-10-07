@@ -1,0 +1,1 @@
+The above application describes Inheritance, Object_Oriented Programming, Polymorphism , Encapsulation at application level.
