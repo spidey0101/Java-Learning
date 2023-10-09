@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>LearnEd</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#Resources_section">Resources</a></li>
+				<li><a href="#History_section">History</a></li>
+				<li><a href="#portal_section">Portal</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<a class="get-started" href="https://www.freecodecamp.org/news/learn-java-free-java-courses-for-beginners/">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Do u love wrinting code powerfully, systematically and organised?</p>
+				<h4>Java, the magical thread that weaves together the tapestry of our digital world, beckons curious minds to explore its limitless potential, promising the power to shape the future of technology and innovation</h4>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/review/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#Resources_section">Resources</a></li>
+				<li><a href="#History_section">History</a></li>
+				<li><a href="#portal_section">portal</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Popular TechStcks in Java</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="https://www.tutorialspoint.com/jdbc/index.htm"><img src="images/courses/book.png">JDBC</a></div>
+		<div class="det"><a href="https://www.tutorialspoint.com/hibernate/index.htm"><img src="images/courses/d1.png">Hybernate</a></div>
+		<div class="det"><a href="https://www.tutorialspoint.com/swing/index.htm"><img src="images/courses/paper.png">Swing</a></div>
+		<div class="det"><a href="https://www.tutorialspoint.com/jsp/index.htm"><img src="images/courses/d1.png">Server Side Coding</a></div>
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="https://www.javatpoint.com/windows-programming-using-java"><img src="images/courses/computer.png">Application Devlopment</a></div>
+		<div class="det"><a href="https://medium.com/@rookantha/java-write-once-run-anywhere-85737566cb1b"><img src="images/courses/data.png">Right once run anywhere</a></div>
+		<div class="det"><a href="https://www.w3schools.com/java/java_classes.asp"><img src="images/courses/algo.png">Powerful class System</a></div>
+		<div class="det det-last"><a href="https://www.freecodecamp.org/news/learn-java-free-java-courses-for-beginners"><img src="images/courses/projects.png">and <br> much more..</a></div>
+		</div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">More about Java</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					<h2>What is Java?</h2>
+					<p><b>Java</b> is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+						Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java.<br>Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+						<br><b>Platform:</b> Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- POPULAR RESOURCES FOR JAVA -->
+	<div class="diffSection" id="Resources_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">RESOURCES</p></center>
+		<div class="content">
+			<p>
+				"Once you find a proper path ways your half of journey is already done."
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>Come and experience world of java!!!</p>
+		<div class="smbox">
+		<span><center><div class="data"></div><div class="det"> <a href="https://www.tutorialspoint.com/" class="det">TutorialsPoint</a></div></center></span>
+		<span><center><div class="data"></div><div class="det"> <a href="https://wemakedevs.org/" class="det">WeMakeDevs</a></div></center></span>
+		<span><center><div class="data"></div><div class="det"> <a href="https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=ZcbXnPH-wuBjtafQ" class="det">Youtube - Kunal Kushwaha</a></div></center></span>
+		<span><center><div class="data"></div><div class="det"> <a href="hhttps://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=ZcbXnPH-wuBjtafQ" class="det">GeeksForGeeks</a></div></center></span>
+		<!-- <span><center><div class="data"></div><div class="det">Total Courses</div></center></span> -->
+		<!-- <span><center><div class="data"></div><div class="det">Placed Students</div></center></span> -->
+		<!-- <span><center><div class="data"></div><div class="det">Total Projects</div></center></span> -->
+		</div>
+	</div>
+
+
+<!-- History -->
+	<div class="diffSection" id="History_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Java History</p></center>
+		<ul>
+			<li>2023: The latest developments and future of Java.</li>
+			<li>2020: Release of Java 15 with enhanced performance and features.</li>
+			<li>2018: Java 10 and subsequent versions with incremental updates.</li>
+			<li>2017: Java 9 introduces the module system.</li>
+			<li>2014: Release of Java 8 with lambda expressions and the Stream API.</li>
+			<li>2011: Oracle Corporation acquires Sun Microsystems, becoming the steward of Java.</li>
+			<li>2004: Release of Java 5 (Java 1.5) with features like generics and metadata annotations.</li>
+			<li>1996: Introduction of Java Applets for web development.</li>
+			<li>1995: Java 1.0 released, marking the official launch of Java.</li>
+			<li>1991: Inception of Java programming language by James Gosling at Sun Microsystems.</li>
+		</ul>
+	</div>
+
+
+<!-- portal -->
+	<div class="service-swipe">
+		<div class="diffSection" id="portal_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Portals</p></center>
+		</div>
+		<a href="https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=ZcbXnPH-wuBjtafQ"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Online Computer Courses</p></div></a>
+		<a href="https://www.tutorialspoint.com/"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts</p></div></a>
+		<a href="https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=ZcbXnPH-wuBjtafQ"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
+		<a href="https://www.sanfoundry.com/java-questions-answers-freshers-experienced/"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers for Exams</p></div></a>
+		<a href="https://leetcode.com/"><div class="s-card"><img src="images/icon/p3.png"><p>Coding Platform - LeetCode</p></div></a>
+		<a href="https://www.hackerrank.com/"><div class="s-card"><img src="images/icon/discussion.png"><p>Coding Platform - HackerRank</p></div></a>
+		<a href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions"><div class="s-card"><img src="images/icon/q1.png"><p>Coding Platform - GeeksForGeeks</p></div></a>
+		<a href="https://www.geeksforgeeks.org/java/"><div class="s-card"><img src="images/icon/papers.jpg"><p>Blogs</p></div></a>
+	</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/review/humanNotExist1.jpg"><p>Sophie Daniel</p>
+				<h6>Java</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					I did Java Fundamenetal course with Rishab Sir. It was a great experience. The brain teasers and assignments, actually the whole lot of content was really good. Some problems were challenging yet interesting. Was explained very well where ever I stuck...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/review/humanNotExist2.jpg"><p>Clayton Clair</p>
+				<h6>Java swing</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					Learning Java and Swing has truly opened the world of opportunity for me. It's a journey of continuous learning and growth, and I couldn't be more grateful for the doors it has opened in my career. If you're considering delving into the world of programming, I highly recommend starting with Java and Swing – you won't be disappointed!</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/review/humanNotExist3.jpg"><p>Devyn Sethi</p>
+				<h6>Java Learner</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					Learning Java was an amazing experience for me. I belong to electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in. It gives you a better understanding about how to approach a problem...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/review/humanNotExist4.jpg"><p>Rylee Phillips</p>
+				<h6>software Engineer</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					As a software engineer, learning Java has been a transformative experience in my career. Java has not only expanded my programming horizons but has also significantly contributed to my professional growth.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:xyz@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:xyz@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2023 HacktoberFest JavaLearner</p>
+				<br>
+				<a style="color: white;" href="https://github.com/spidey0101/Java-Learning">
+					<p><img src="images/icon/location.png"> Github</p>
+
+				</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
