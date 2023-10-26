@@ -39,15 +39,4 @@ public class FibonacciSearch {
         return -1; // Element not found  
     }  
   
-    public static void main(String[] args) {  
-        int[] dp = { 2, 5, 9, 13, 18, 21, 28, 35, 40 };  
-        int key = 18;  
-        int index = fibonacciSearch(dp, key);  
-  
-        if (index >= 0) {  
-            System.out.println("Element found at " + index);  
-        } else {  
-            System.out.println("Element not found");  
-        }  
-    }  
 }  
